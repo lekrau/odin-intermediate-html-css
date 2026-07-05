@@ -1,0 +1,13 @@
+th {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background-color: yellow;
+}
+
+tfoot td{
+    background-color: teal;
+}
