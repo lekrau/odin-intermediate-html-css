@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 
-.grid-container {
+body {
     background-color: pink;
     display: grid;
     grid-template-columns:
-        [left] 1fr [middle2] 1fr [middle2] 1fr [right];
+        [left] 1fr [middle1] 1fr [middle2] 1fr [right];
     gap: 10px;
     /* grid-template-rows: 100px 1fr 100px; */
     /* grid-template-areas:
@@ -14,7 +14,7 @@
     "b b b"; */
 }
 
-.grid-container>* {
+body>* {
     background-color: aqua;
     height: 100px;
     display: flex;
