@@ -1,0 +1,32 @@
+:root {
+    --grid-size: 100px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: var(--grid-size) var(--grid-size);
+    grid-template-rows: var(--grid-size) var(--grid-size);
+    /* grid-template: var(--grid-size) var(--grid-size) / var(--grid-size) var(--grid-size); */
+    grid-auto-rows: 30px;
+    grid-auto-columns: 30px;
+    /* grid-auto-flow: column; */
+    /* column-gap: 10px;
+    row-gap: 100px; */
+    gap: 30px 10px;
+}
+
+/* .container>div {
+    border: 1px solid blue;
+} */
+
+.container>:nth-child(odd) {
+    background-color: coral;
+}
+
+.container>:nth-child(even) {
+    background-color: cornflowerblue;
+}
