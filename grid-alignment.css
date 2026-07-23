@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    align-items: stretch;
+    /* justify-content: end; */
+}
+
+.container>div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.item-1 {
+    /* align-self: end; */
+    justify-self: end;
+    margin-right: 10px;
+}
+
+.item-2 {}
+
+.item-3 {}
+
+.item-4 {}
+
+.item-5 {}
+
+.item-6 {}
+
+.item-7 {}
+
+.item-8 {}
